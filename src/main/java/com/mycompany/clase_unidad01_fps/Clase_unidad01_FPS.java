@@ -85,7 +85,7 @@ public class Clase_unidad01_FPS {
         
         System.out.println(celu3.mostrarInfo());
         
-        var reloj1 = new Relojes();
+        var reloj1 = new Reloj();
         reloj1.marca="patek";
         reloj1.valor= 89.000;
         reloj1.serie="7140G";
@@ -93,7 +93,7 @@ public class Clase_unidad01_FPS {
         
         System.out.println(reloj1.mostrarInfo());
         
-        var reloj2 = new Relojes();
+        var reloj2 = new Reloj();
         reloj2.marca="Rolex";
         reloj2.valor=84.995;
         reloj2.serie="116508";
@@ -101,7 +101,7 @@ public class Clase_unidad01_FPS {
 
         System.out.println(reloj2.mostrarInfo());
 
-        var reloj3 = new Relojes();
+        var reloj3 = new Reloj();
         reloj3.marca="Richard Mille";
         reloj3.valor=225.000;
         reloj3.serie="RM 67";
